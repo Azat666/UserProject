@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/background_item">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageview_girl"
+            android:layout_width="@dimen/size_ciryl"
+            android:layout_height="@dimen/size_ciryl"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/name_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_toLeftOf="@id/imageview_girl"
+            android:fontFamily="@string/text_font"
+            android:textColor="@color/text_item"
+            android:textSize="@dimen/item_text_size"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/call_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size_image"
+            android:background="@null"
+            android:src="@drawable/ic_phone_black_24dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

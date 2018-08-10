@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:background="@color/background_item">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageview"
+            android:layout_width="@dimen/size_ciryl"
+            android:layout_height="@dimen/size_ciryl" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_toEndOf="@id/imageview"
+            android:fontFamily="casual"
+            android:textColor="@color/text_item"
+            android:textSize="@dimen/item_text_size"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/email_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/mar_image"
+            android:background="@null"
+            android:src="@drawable/ic_mail_black_24dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

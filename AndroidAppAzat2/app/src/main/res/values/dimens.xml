@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="info_text_size">20sp</dimen>
+    <dimen name="info_text_margin">15dp</dimen>
+    <dimen name="item_text_size">25sp</dimen>
+    <dimen name="text_mar">20dp</dimen>
+    <dimen name="size_image">50dp</dimen>
+    <dimen name="size_ciryl">100dp</dimen>
+    <dimen name="mar_image">15dp</dimen>
+    <dimen name="margin">5dp</dimen>
+</resources>
